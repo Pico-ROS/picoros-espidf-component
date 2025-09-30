@@ -7,6 +7,7 @@ Use for quick integration into ESP-IDF projects.
 ```sh
 # Pull this repository
 git clone https://github.com/Pico-ROS/picoros-espidf-component components/picoros
+# git clone https://github.com/fish1sheep/picoros-espidf-component.git components/picoros
 cd components/picoros && git submodule update --init --recursive
 # Copy example ROS types:
 cp components/picoros/picoros/examples/example_types.h main/my_ros_types.h
