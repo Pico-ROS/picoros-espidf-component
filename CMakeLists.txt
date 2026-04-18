@@ -12,6 +12,7 @@ file(GLOB_RECURSE SOURCES_GLOB
         "picoros/thirdparty/zenoh-pico/src/utils/*.c"
         "picoros/thirdparty/zenoh-pico/src/system/espidf/*.c"
         "picoros/thirdparty/zenoh-pico/src/system/common/*.c"
+        "picoros/thirdparty/zenoh-pico/src/runtime/*.c"
         "picoros/src/*.c"
 )
 
