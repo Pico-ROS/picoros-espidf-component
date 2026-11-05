@@ -1,7 +1,8 @@
 # Picoros ESP-IDF component
 Builds [Pico-ROS](https://github.com/Pico-ROS/Pico-ROS-software), Micro-CDR and zenoh-pico from the `picoros`
 submodule as one ESP-IDF component named `picoros`. Nothing is copied: zenoh-pico's `config.h` is generated at
-configure time from the checked-out submodule and the feature flags below.
+configure time from the checked-out submodule and the feature flags below. Needs ESP-IDF v5.3 or newer (tested with
+v5.5.1).
 
 ## Setup
 
