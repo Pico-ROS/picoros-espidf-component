@@ -1,0 +1,11 @@
+description: Pico-ROS (picoros, picoserdes, Micro-CDR, zenoh-pico) as an ESP-IDF component
+url: https://github.com/Pico-ROS/picoros-espidf-component
+repository: https://github.com/Pico-ROS/picoros-espidf-component.git
+issues: https://github.com/Pico-ROS/picoros-espidf-component/issues
+
+examples:
+  - path: ./examples
+
+dependencies:
+  # esp_driver_uart (zenoh-pico's serial link) exists since v5.3; tested with v5.5.1.
+  idf: ">=5.3"
